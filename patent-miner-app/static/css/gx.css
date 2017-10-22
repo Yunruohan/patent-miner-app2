@@ -1,0 +1,58 @@
+#Ho{
+  position:absolute;
+  top:0;
+}
+.logo{
+  position: relative;
+  width:100px;
+  top: 8px;
+  left: 10px;
+}
+.Comt{
+  position: relative;
+  left: 20%;
+  width: 1000px;
+  bottom: 17px;
+  z-index: 100;
+}
+#comname{
+  position: relative;
+  color: #7d8fff;
+  margin:50px 0px 100px 0px ;
+}
+#comjj{
+  position: relative;
+  margin:100px 0px 100px 0px ;
+}
+/*.Dh{*/
+/*margin: 0;*/
+/*z-index: 5555;*/
+/*}*/
+#comjj{
+  margin:100px 0px 100px 0px ;
+}
+#comgk{
+  position: relative;
+  margin:100px 0px 100px 0px ;
+
+}
+#zlqk{
+  margin:100px 0px 100px 0px ;
+}
+#infoo{
+  margin:100px 0px 100px 0px ;
+}
+#comname{
+  position: relative;
+
+}
+
+.essay{
+  position: relative;
+  width: 80%;
+  left: 10%;
+}
+hr{
+  background-color:black;
+  height: 20px;
+}
