@@ -15,7 +15,10 @@
           <el-input v-model="username" placeholder="电子邮件地址"></el-input>
         </el-form-item>
         <el-form-item label="密码" prop="password" class="col-xs-12 ">
-          <el-input v-model="firstName" placeholder="密码"></el-input>
+          <el-input v-model="password" placeholder="密码"></el-input>
+        </el-form-item>
+        <el-form-item class="col-xs-12">
+          <el-button type="primary" @click="submitForm('loginForm')">登陆</el-button>
         </el-form-item>
       </el-form>
     </el-card>
@@ -73,14 +76,11 @@
       submitForm(formName) {
         this.$refs[formName].validate((valid) => {
           if (valid) {
-            this.register();
+            this.login();
             return true;
           }
           return false;
         });
-      },
-      resetForm(formName) {
-        this.$refs[formName].resetFields();
       },
     },
   };
